@@ -1,66 +1,66 @@
-@extends('layouts.master')
+@extends('frontend.layouts.master')
 
 @section('content')
 
 <!-- main slider start -->
 
-@include('frontend.slider.main-slider')
+@include('frontend.layouts.slider.main-slider')
 
 <!-- main slider end -->
 
 
 <!-- common banner  start -->
 
-@include('frontend.banner.common-banner')
+@include('frontend.layouts.banner.common-banner')
 
 <!-- common banner  end -->
 
 
 <!-- product tab start -->
 
-@include('frontend.product.product')
+@include('frontend.layouts.product.product')
 
 <!-- product tab end -->
 
 
 <!-- common banner  start -->
 
-@include('frontend.banner.common-banner-second')
+@include('frontend.layouts.banner.common-banner-second')
 
 <!-- common banner  end -->
 
 
 <!-- Popular category tab start -->
 
-@include('frontend.product.popular_categories')
+@include('frontend.layouts.product.popular_categories')
 
 <!-- Popular category tab end -->
 
 
 <!-- product tab repetation start -->
 
-@include('frontend.product.product-repetation')
+@include('frontend.layouts.product.product-repetation')
 
 <!-- product tab repetation end -->
 
 
 <!-- staic media start -->
 
-@include('frontend.banner.service-banner')
+@include('frontend.layouts.banner.service-banner')
 
 <!-- staic media end -->
 
 
 <!-- blog-section start -->
 
-@include('frontend.latest-blog')
+@include('frontend.layouts.latest-blog')
 
 <!-- blog-section end -->
 
 
 <!-- brand slider start -->
 
-@include('frontend.slider.brand-slider')
+@include('frontend.layouts.slider.brand-slider')
 
 <!-- brand slider end -->
 

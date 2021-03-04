@@ -3,13 +3,11 @@
 
 Route::get('/', 'PagesController@index');
 
+Route::get('/shop', 'PagesController@shop');
+
 Route::get('/contact', 'PagesController@contact');
 
 Route::get('/about', 'PagesController@about');
-
-Route::get('/blog', 'PagesController@blog');
-
-Route::get('/shop', 'PagesController@shop');
 
 // Myinfo
 

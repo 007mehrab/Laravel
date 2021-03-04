@@ -8,59 +8,56 @@ class PagesController extends Controller
 {
 
 	public function index(){
-		return view('pages.index');
-	}
-	public function contact(){
-		return view('pages.contact');
-	}
-
-	public function about(){
-		return view('pages.about');
-	}
-
-	public function blog(){
-		return view('pages.blog');
+		return view('frontend.pages.index');
 	}
 
 	public function shop(){
-		return view('pages.shop.shop');
+		return view('frontend.pages.shop.shop');
+	}
+
+	public function contact(){
+		return view('frontend.pages.contact');
+	}
+
+	public function about(){
+		return view('frontend.pages.about');
 	}
 
 
 
 
 	public function myaccount(){
-		return view('pages.myinfo.myaccount');
+		return view('frontend.pages.myinfo.myaccount');
 	}
 
 
 	public function checkout(){
-		return view('pages.myinfo.checkout');
+		return view('frontend.pages.myinfo.checkout');
 	}
 
 
 	public function login(){
-		return view('pages.myinfo.login');
+		return view('frontend.pages.myinfo.login');
 	}
 
 	public function register(){
-		return view('pages.myinfo.register');
+		return view('frontend.pages.myinfo.register');
 	}
 
 
 
 
 	public function cart(){
-		return view('pages.product_pages.cart');
+		return view('frontend.pages.product_pages.cart');
 	}
 
 	public function compare(){
-		return view('pages.product_pages.compare');
+		return view('frontend.pages.product_pages.compare');
 	}
 
 
 	public function wishlist(){
-		return view('pages.product_pages.wishlist');
+		return view('frontend.pages.product_pages.wishlist');
 	}
 
 

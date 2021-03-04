@@ -24,7 +24,7 @@
 
 <!-- offcanvas-mobile-menu start -->
 
-@include('frontend.offcanvas.mobile.main-menu')
+@include('frontend.layouts.offcanvas.mobile.main-menu')
 
 <!-- offcanvas-mobile-menu end -->
 
@@ -33,7 +33,7 @@
 
 <!-- OffCanvas Wishlist Start -->
 
-@include('frontend.offcanvas.Wishlist')
+@include('frontend.layouts.offcanvas.Wishlist')
 
 <!-- OffCanvas Wishlist End -->
 
@@ -41,7 +41,7 @@
 
 <!-- OffCanvas Cart Start -->
 
-@include('frontend.offcanvas.cart')
+@include('frontend.layouts.offcanvas.cart')
 
 <!-- OffCanvas Cart End -->
 
@@ -51,7 +51,7 @@
 
 <!-- header start -->
 
-@include('layouts.header.header')
+@include('frontend.layouts.header.header')
 
 <!-- header end -->
 
@@ -69,7 +69,7 @@
 
 <!-- footer strat -->
 
-@include('layouts.footer.footer')
+@include('frontend.layouts.footer.footer')
 
 <!-- footer end -->
 
@@ -79,7 +79,7 @@
 
 <!-- modals start -->
 
-@include('frontend.modal')
+@include('frontend.layouts.modal')
 
 <!-- modals end -->
 
