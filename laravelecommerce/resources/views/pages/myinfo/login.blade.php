@@ -30,17 +30,17 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="title text-capitalize mb-30 pb-25"> Log in to your account</h3>
+                <h3 align="center" class="title text-capitalize mb-30 pb-25"> Log in to your account</h3>
                 <form class="log-in-form">
-                    <div class="form-group row">
-                        <label for="staticEmail" class="col-md-3 col-form-label">Email</label>
-                        <div class="col-md-6">
+                    <div class="form-group row offset-md-3">
+                        <label for="staticEmail">Email</label><br>
+                        <div class="col-md-8">
                             <input type="email" class="form-control" id="staticEmail">
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="inputPassword" class="col-md-3 col-form-label">Password</label>
-                        <div class="col-md-6">
+                    <div class="form-group row offset-md-3">
+                        <label for="inputPassword">Password</label><br>
+                        <div class="col-md-8">
                             <div class="input-group mb-2 mr-sm-2">
                                 <input type="password" class="form-control" id="inputPassword">
                                 <div class="input-group-prepend">
@@ -65,7 +65,7 @@
                     <div class="form-group row text-center mb-0">
                         <div class="col-12">
                             <div class="border-top">
-                                <a href="register.html" class="no-account">No account? Create one here</a>
+                                <a href="{{URL::to('/register')}}" class="no-account">No account? Create one here</a>
                             </div>
                         </div>
                     </div>

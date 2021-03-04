@@ -9,6 +9,8 @@ Route::get('/about', 'PagesController@about');
 
 Route::get('/blog', 'PagesController@blog');
 
+Route::get('/shop', 'PagesController@shop');
+
 // Myinfo
 
 Route::get('/myaccount', 'PagesController@myaccount');

@@ -30,6 +30,13 @@
 <!-- common banner  end -->
 
 
+<!-- Popular category tab start -->
+
+@include('frontend.product.popular_categories')
+
+<!-- Popular category tab end -->
+
+
 <!-- product tab repetation start -->
 
 @include('frontend.product.product-repetation')

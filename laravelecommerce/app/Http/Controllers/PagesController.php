@@ -22,6 +22,10 @@ class PagesController extends Controller
 		return view('pages.blog');
 	}
 
+	public function shop(){
+		return view('pages.shop.shop');
+	}
+
 
 
 

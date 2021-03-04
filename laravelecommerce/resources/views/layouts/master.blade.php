@@ -51,7 +51,7 @@
 
 <!-- header start -->
 
-@include('frontend.header.header')
+@include('layouts.header.header')
 
 <!-- header end -->
 
@@ -69,7 +69,7 @@
 
 <!-- footer strat -->
 
-@include('frontend.footer.footer')
+@include('layouts.footer.footer')
 
 <!-- footer end -->
 
