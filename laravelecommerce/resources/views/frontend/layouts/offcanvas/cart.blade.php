@@ -37,9 +37,9 @@
             <strong>Subtotal :</strong>
             <span class="amount">$144.00</span>
         </div>
-        <a href="cart.html" class="btn theme--btn-default btn--lg d-block d-sm-inline-block rounded-5 mr-sm-2">view
+        <a href="{{URL::to('/cart')}}" class="btn theme--btn-default btn--lg d-block d-sm-inline-block rounded-5 mr-sm-2">view
             cart</a>
-        <a href="checkout.html"
+        <a href="{{URL::to('/checkout')}}"
             class="btn theme-btn--dark1 btn--lg d-block d-sm-inline-block mt-4 mt-sm-0 rounded-5">checkout</a>
         <p class="minicart-message">Free Shipping on All Orders Over $100!</p>
     </div>

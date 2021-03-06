@@ -33,7 +33,7 @@
                 </div>
             </li>
         </ul>
-        <a href="wishlist.html" class="btn theme--btn-default btn--lg d-block d-sm-inline-block rounded-5 mt-30">view
+        <a href="{{URL::to('/wishlist')}}" class="btn theme--btn-default btn--lg d-block d-sm-inline-block rounded-5 mt-30">view
             wishlist</a>
     </div>
 </div>

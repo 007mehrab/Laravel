@@ -13,7 +13,7 @@
                     <li class="mx-4"><a href="compare.html"><i class="ion-ios-loop-strong"></i> Compare <span>(0)</span>
                         </a></li>
                     <li class="mx-4">
-                        <a href="wishlist.html"> <i class="ion-android-favorite-outline"></i> Wishlist
+                        <a href="{{URL::to('/wishlist')}}"> <i class="ion-android-favorite-outline"></i> Wishlist
                             <span>(0)</span></a>
                     </li>
                 </ul>
@@ -67,7 +67,7 @@
                                 <li><a href="compare.html">Compare Page</a></li>
                                 <li><a href="login.html">Login &amp; Register Page</a></li>
                                 <li><a href="myaccount.html">Account Page</a></li>
-                                <li><a href="wishlist.html">Wishlist Page</a></li>
+                                <li><a href="{{URL::to('/wishlist')}}">Wishlist Page</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -80,7 +80,7 @@
                         <li><a href="compare.html">Compare Page</a></li>
                         <li><a href="login.html">Login &amp; Register Page</a></li>
                         <li><a href="myaccount.html">Account Page</a></li>
-                        <li><a href="wishlist.html">Wishlist Page</a></li>
+                        <li><a href="{{URL::to('/wishlist')}}">Wishlist Page</a></li>
                     </ul>
                 </li>
                 <li><a href="#"><span class="menu-text">Blog</span></a>

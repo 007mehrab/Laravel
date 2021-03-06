@@ -3,7 +3,9 @@
 
 Route::get('/', 'PagesController@index');
 
-Route::get('/shop', 'PagesController@shop');
+Route::get('/blog', 'PagesController@blog');
+
+Route::get('/shop', 'ProductController@shop');
 
 Route::get('/contact', 'PagesController@contact');
 
@@ -27,3 +29,10 @@ Route::get('/cart', 'PagesController@cart');
 Route::get('/compare', 'PagesController@compare');
 
 Route::get('/wishlist', 'PagesController@wishlist');
+
+
+
+// Admin Pannel Create
+
+
+Route::get('/admin', 'AdminController@index');

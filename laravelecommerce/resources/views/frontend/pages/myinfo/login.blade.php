@@ -2,10 +2,6 @@
 
 @section('content')
 
-
-
-
-
 <!-- breadcrumb-section start -->
 <nav class="breadcrumb-section theme1 bg-lighten2 pt-110 pb-110">
     <div class="container">
