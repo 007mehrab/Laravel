@@ -10,8 +10,8 @@
         color: #1bff00;
     }
     .pb-80 {
-        padding-bottom: 35px;
-        padding-top: 25px;
+        padding-bottom: 60px;
+        padding-top: 50px;
     }
 </style>
 

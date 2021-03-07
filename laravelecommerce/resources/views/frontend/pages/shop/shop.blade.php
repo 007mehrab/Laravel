@@ -81,7 +81,7 @@
                         <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             @foreach ($product->images as $img)
-                            <a href="single-product.html">
+                            <a href="{{URL::to('/details')}}">
                                 <img class="first-img" src="{{asset('assets/products/'.$img->image)}}" alt="thumbnail">
                             </a>
                             @endforeach
@@ -109,7 +109,7 @@
                             <!-- product links end-->
                         </div>
                         <div class="product-desc py-0"><br>
-                            <h3 class="title"><a href="shop-grid-4-column.html">
+                            <h3 class="title"><a href="{{URL::to('/details')}}">
                                 {{$product->title}}
                             </a></h3>
                             <div class="star-rating">

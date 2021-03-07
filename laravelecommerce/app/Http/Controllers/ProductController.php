@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Product;
+use App\Brand;
 
 class ProductController extends Controller
 {
-    public function shop(){
+    public function index(){
 
     	$products = Product::all();
-		return view('frontend.pages.shop.shop', compact('products'));
+		return view('Backend.pages.product.index', compact('products'));
 	}
+
 }

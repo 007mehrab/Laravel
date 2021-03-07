@@ -1,3 +1,10 @@
+<style>
+    .pb-30 {
+    background-color: #f6f6f6 !important;
+}
+</style>
+
+
 <div class="footer-bottom pt-80 pb-30">
         <div class="container">
             <div class="row">
@@ -51,6 +58,7 @@
                             <li><a href="contact.html">Contact us</a></li>
                             <li><a href="#">Sitemap</a></li>
                             <li><a href="#">Stores</a></li>
+                            <li><a href="#">Services</a></li>
                         </ul>
                         <!-- footer-menu end -->
                     </div>
@@ -74,6 +82,8 @@
                             <li><a href="login.html">Login</a></li>
 
                             <li><a href="myaccount.html">My account</a></li>
+
+                            <li><a href="login.html">Logout</a></li>
                         </ul>
                         <!-- footer-menu end -->
                     </div>

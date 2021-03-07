@@ -5,7 +5,9 @@ Route::get('/', 'PagesController@index');
 
 Route::get('/blog', 'PagesController@blog');
 
-Route::get('/shop', 'ProductController@shop');
+Route::get('/shop', 'ShopController@shop');
+
+Route::get('/details', 'ShopController@single_shop_details');
 
 Route::get('/contact', 'PagesController@contact');
 
@@ -36,3 +38,5 @@ Route::get('/wishlist', 'PagesController@wishlist');
 
 
 Route::get('/admin', 'AdminController@index');
+
+Route::get('/product', 'ProductController@index');
